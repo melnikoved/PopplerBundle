@@ -11,7 +11,7 @@ Installation
 Open your command console, browse to your project and execute the following:
 
 ```sh
-$ composer require melnikoved/poppler-bundle
+$ composer require melnikoved/poppler-bundle:dev-master
 ```
 
 ### Step 2: Enable the bundle
