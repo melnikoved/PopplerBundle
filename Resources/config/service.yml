@@ -1,0 +1,10 @@
+services:
+    poppler:
+        class: Melnikoved\PopplerBundle\Lib\Poppler
+        arguments:
+            userManager: "@pdfunite"
+
+    pdfunite:
+        class: Melnikoved\PopplerBundle\Lib\Utils\Pdfunite
+        arguments:
+            command: "%menikoved_poppler.pdfunite_path%"

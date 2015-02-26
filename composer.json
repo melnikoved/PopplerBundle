@@ -1,0 +1,23 @@
+{
+    "name": "melnikoved/poppler-bundle",
+    "type": "library",
+    "description": "PHP Poppler",
+    "keywords": ["pdf", "poppler"],
+    "homepage":    "https://github.com/melnikoved/PopplerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduard Melnikov",
+            "email": "melnikoved@gmail.com",
+            "homepage": "https://github.com/melnikoved"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Melnikoved\\PopplerBundle": ""
+        }
+    },
+    "require": {
+    },
+    "target-dir": "Melnikoved/PopplerBundle"
+}
